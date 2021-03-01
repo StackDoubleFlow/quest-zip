@@ -1,0 +1,16 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "zip",
+    "id": "zip",
+    "version": "0.1.0",
+    "url": "https://github.com/StackDoubleFlow/quest-zip",
+    "additionalData": {
+      "overrideSoName": "libzip.so",
+      "branchName": "main"
+    }
+  },
+  "dependencies": [],
+  "additionalData": {}
+}
