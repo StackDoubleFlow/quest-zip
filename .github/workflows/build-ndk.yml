@@ -65,9 +65,9 @@ jobs:
       run: |
         chmod +x ./QPM/QPM
         ./QPM/QPM restore
-    - name: test
-      run: |
-        ls ./QPM/QPM_Temp
+    # - name: test
+    #   run: |
+    #     ls ./QPM/QPM_Temp
     - name: Build
       run: |
         cd ${GITHUB_WORKSPACE}
