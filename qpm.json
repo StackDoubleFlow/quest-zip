@@ -8,7 +8,9 @@
     "url": "https://github.com/StackDoubleFlow/quest-zip",
     "additionalData": {
       "overrideSoName": "libzip.so",
-      "branchName": "main"
+      "branchName": "version-v1.7.4",
+      "soLink": "https://github.com/StackDoubleFlow/quest-zip/releases/download/v1.7.4/libzip.so.so",
+      "debugSoLink": "https://github.com/StackDoubleFlow/quest-zip/releases/download/v1.7.4/debug_libzip.so"
     }
   },
   "dependencies": [],
