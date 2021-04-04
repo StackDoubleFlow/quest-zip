@@ -24,6 +24,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := zip
 LOCAL_SRC_FILES := $(call rwildcard,src/,*.c)
 LOCAL_LDLIBS += -llog -lz
-LOCAL_CFLAGS += -I"shared"
+LOCAL_CFLAGS += -I"shared" -DVERSION='"1.7.4"'
 LOCAL_C_INCLUDES += ./shared ./src
 include $(BUILD_SHARED_LIBRARY)
